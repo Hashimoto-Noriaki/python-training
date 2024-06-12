@@ -21,3 +21,13 @@ print(type(string_a))
 
 #Python学習
 # <class 'str'>
+
+# bool型
+a = 100
+b = 1
+
+bool02 = (a < b)
+print(bool02)
+print(type(bool02))
+#False
+#<class 'bool'>
