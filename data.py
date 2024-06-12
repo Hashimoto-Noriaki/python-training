@@ -35,3 +35,4 @@ print(type(bool02))
 # list型
 a = [1,2,3, 'list']
 print(type(a))
+#<class 'list'>
