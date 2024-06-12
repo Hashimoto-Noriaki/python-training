@@ -14,3 +14,10 @@ print(type(num02))
 # <class 'float'>
 
 # 文字型
+string_a = 'Python学習'
+
+print(string_a)
+print(type(string_a))
+
+#Python学習
+# <class 'str'>
