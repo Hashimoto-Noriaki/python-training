@@ -32,3 +32,23 @@ print(keyword.iskeyword('return'))
 print(keyword.iskeyword('Return'))
 #True
 #False
+
+a = 100
+b = 1
+a = 200
+print(a)
+print(b)
+
+# 200
+# 1
+
+
+a = 10
+print(id(a))
+b = a
+a = 20
+print(id(b))
+print(id(a))
+# 4381025800
+# 4381025800
+# 4381026120
