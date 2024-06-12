@@ -49,3 +49,12 @@ z = {'a':1,'b':2,'c':3,'d':'dict'}
 print(type(z))
 #<class 'dict'>
 
+
+#set型
+s1 = {1,2,3}
+s2 = {1,2,3,4}
+
+print(s1)
+print(s2)
+print(type(s1))
+print(type(s2))
