@@ -36,3 +36,16 @@ print(type(bool02))
 a = [1,2,3, 'list']
 print(type(a))
 #<class 'list'>
+
+# tuple型
+#tuple型は1度代入した要素を書き換えることができない
+b = (1,2,3,'tuple')
+print(type(b))
+#<class 'tuple'>
+
+
+#辞書型
+z = {'a':1,'b':2,'c':3,'d':'dict'}
+print(type(z))
+#<class 'dict'>
+
