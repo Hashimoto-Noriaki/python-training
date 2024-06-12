@@ -99,3 +99,8 @@ print(type(d))
 # <class 'int'>
 # 123だー
 # <class 'str'>
+
+a = 567
+b = str(a) + '8910'
+print(b)
+# 5678910
