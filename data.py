@@ -31,3 +31,7 @@ print(bool02)
 print(type(bool02))
 #False
 #<class 'bool'>
+
+# list型
+a = [1,2,3, 'list']
+print(type(a))
