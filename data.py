@@ -59,3 +59,43 @@ print(s2)
 print(type(s1))
 print(type(s2))
 
+
+#データ型変換
+#list() リスト型変換
+a = [1,2,3, 'list']
+b = list(a)
+print(a)
+print(type(a))
+print(b)
+print(type(b))
+
+# tuple型に変換
+a = '1234'
+b = int(a)
+print(a)
+print(type(a))
+print(b)
+print(type(b))
+
+# 1234
+# <class 'str'>
+# 1234
+# <class 'int'>
+
+
+# 計算
+a = 123
+b = '123'
+
+c = a + 7
+d = b + 'だー'
+
+print(c)
+print(type(c))
+print(d)
+print(type(d))
+
+# 130
+# <class 'int'>
+# 123だー
+# <class 'str'>
